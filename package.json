@@ -9,13 +9,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andNeeeeewSite/Yacht-Adventures-Team.git"
+    "url": "git+https://github.com/andneeeeewsite/yacht-adventures-team.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andNeeeeewSite/Yacht-Adventures-Team/issues"
+    "url": "https://github.com/andneeeeewsite/yacht-adventures-team/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
