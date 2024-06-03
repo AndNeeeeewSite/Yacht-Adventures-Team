@@ -1,0 +1,19 @@
+//Import Fonts
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+//Import Base
+@import "./base/variables.scss";
+@import "./base/reset.scss";
+@import "./base/placeholders.scss";
+//Import Components
+@import "./components/footer.scss";
+@import "./components/header.scss";
+//Import Pages
+@import "./home/home.scss";
+//Default Stye
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+  

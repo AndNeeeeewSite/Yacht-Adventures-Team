@@ -1,0 +1,102 @@
+body {
+    background-color: #11131F;
+}
+
+.clients__div-imgs {
+    width: 426px;
+    height: 598px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../src/images/yacht-back.svg');
+    border-radius: 24px;
+}
+
+.clients__img-man {
+    position: absolute;
+    border-radius: 24px;
+    margin-left:305px;
+    margin-top: -83px;
+}
+
+.clients__img-people {
+    border-radius: 30px;
+}
+
+.clients__list-people {
+    display: flex;
+}
+
+.clients__h4 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #11131f;
+    margin-top: 11px;
+}
+
+.people-1 {
+    z-index: 4;
+    width: 56px;
+    height: 56px;
+}
+
+.people-2 {
+
+    margin-left: -11px;
+    width: 56px;
+    height: 56px;
+    z-index: 3;
+}
+
+.people-3 {
+    margin-left: -11px;
+    width: 56px;
+    height: 56px;
+    z-index: 2;
+}
+
+.clients__div-clients {
+    margin-left: 32px;
+}
+
+.clients__div-imgs{
+    margin-top:64px;
+    padding-top: 32px;
+}
+.clients__img-yaht{
+    margin-top:111px;
+    margin-left: 24px;
+} 
+
+.clients__list{
+    display: flex;
+    gap: 14px;
+    margin-top: 22px;
+    margin-left: 32px;
+}
+.clients__h2{
+    font-family:"DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color:  #11131f;
+}
+.clients__h3{
+    width:210px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    color:  #11131f;
+}
+.clients__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

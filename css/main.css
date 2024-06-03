@@ -1,0 +1,265 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid rgba(246, 245, 239, 0.2);
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  gap: 24px;
+}
+
+.header__div-logo {
+  display: flex;
+  gap: 8px;
+}
+
+.header__h2 {
+  margin-bottom: 32px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 118%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 32px;
+}
+
+.header__img {
+  width: 23px;
+  height: 23px;
+  margin-top: 32px;
+}
+
+.header__h3 {
+  margin-top: 32px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 118%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: white;
+}
+
+body {
+  background-color: #11131F;
+}
+
+.clients__div-imgs {
+  width: 426px;
+  height: 598px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../src/images/yacht-back.svg");
+  border-radius: 24px;
+}
+
+.clients__img-man {
+  position: absolute;
+  border-radius: 24px;
+  margin-left: 305px;
+  margin-top: -83px;
+}
+
+.clients__img-people {
+  border-radius: 30px;
+}
+
+.clients__list-people {
+  display: flex;
+}
+
+.clients__h4 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 110%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #11131f;
+  margin-top: 11px;
+}
+
+.people-1 {
+  z-index: 4;
+  width: 56px;
+  height: 56px;
+}
+
+.people-2 {
+  margin-left: -11px;
+  width: 56px;
+  height: 56px;
+  z-index: 3;
+}
+
+.people-3 {
+  margin-left: -11px;
+  width: 56px;
+  height: 56px;
+  z-index: 2;
+}
+
+.clients__div-clients {
+  margin-left: 32px;
+}
+
+.clients__div-imgs {
+  margin-top: 64px;
+  padding-top: 32px;
+}
+
+.clients__img-yaht {
+  margin-top: 111px;
+  margin-left: 24px;
+}
+
+.clients__list {
+  display: flex;
+  gap: 14px;
+  margin-top: 22px;
+  margin-left: 32px;
+}
+
+.clients__h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #11131f;
+}
+
+.clients__h3 {
+  width: 210px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  color: #11131f;
+}
+
+.clients__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
