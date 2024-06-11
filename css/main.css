@@ -954,6 +954,118 @@ body {
   margin-bottom: 164px;
 }
 
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .clients {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 64px;
+  }
+  .clients__div-imgs {
+    margin-top: 0px;
+  }
+  .clients__div-titles {
+    margin-top: 64px;
+  }
+  .clients__h2-title {
+    font-size: 50px;
+  }
+  .clients__h2-title-italy {
+    font-size: 50px;
+  }
+  .clients__div-texts {
+    display: block;
+  }
+  .clients__list-texts {
+    margin-top: 32px;
+  }
+  .dream__img-big {
+    margin-top: 0px;
+    margin-left: -56%;
+    width: 704px;
+    height: 631px;
+  }
+  .dream__img-small {
+    margin-left: -228px;
+  }
+  .dream__img-dream {
+    display: flex;
+    margin-top: 617px;
+    margin-right: 32px;
+  }
+  .dream__imgs {
+    display: flex;
+  }
+  .dream__img-small {
+    margin-top: 817px;
+    margin-left: -268px;
+  }
+  .dream__h1 {
+    z-index: 5;
+    width: 100%;
+    letter-spacing: -0.04em;
+    color: #fff;
+    margin-top: -95px;
+    font-family: DM Sans, sans-serif;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 110%;
+  }
+  .dream__button {
+    margin-left: -75%;
+  }
+  .card__3 {
+    position: absolute;
+    left: -100000000000000000000000000000000000000000000px;
+  }
+  .cards__item {
+    width: 100%;
+  }
+  .entertainment {
+    gap: 32px;
+    justify-content: unset;
+  }
+  .entertainment__img-fishing {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 30%;
+  }
+  .entertainment__img-sunbathing {
+    margin-left: 32px;
+  }
+  .rent {
+    gap: 69px;
+  }
+  .rent__input {
+    width: 364px;
+  }
+  .rent__input-comment {
+    width: 364px;
+  }
+  .adventures {
+    display: block;
+  }
+  .adventures__h3 {
+    margin-top: 32px;
+  }
+  .reviews__3 {
+    position: absolute;
+    left: -1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000px;
+  }
+  .reviews__list {
+    flex-wrap: nowrap;
+  }
+  .reviews__div {
+    width: 300px;
+    height: 100%;
+  }
+  .reviews__h4 {
+    font-size: 12px;
+  }
+  .footer__list {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
 .container {
   max-width: 100%;
   margin: 0 auto;
