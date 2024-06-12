@@ -1011,6 +1011,7 @@ body {
 .header__img-phone {
   width: 24px;
   height: 24px;
+  margin-top: 32px;
 }
 
 .mobile__list {
