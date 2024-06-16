@@ -1,19 +1,18 @@
 .footer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(246, 245, 239, 0.2);
 }
-
 .footer__logo {
   margin-top: 64px;
   display: flex;
   gap: 8px;
 }
-
 .footer__logo-img {
   width: 23px;
   height: 23px;
 }
-
 .footer__logo-title {
   font-family: "DM Sans", sans-serif;
   font-weight: 800;
@@ -23,7 +22,6 @@
   text-transform: uppercase;
   color: white;
 }
-
 .footer__h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -33,12 +31,10 @@
   text-transform: uppercase;
   color: white;
 }
-
 .footer__list {
   display: flex;
   gap: 24px;
 }
-
 .footer__img-facebook {
   padding-left: 15px;
   padding-right: 15px;
@@ -47,19 +43,16 @@
   outline: 1px solid white;
   border-radius: 6px;
 }
-
 .footer__list-social {
   display: flex;
   gap: 16px;
   margin-top: 16px;
 }
-
 .footer__img-instagram {
   padding: 11px;
   outline: 1px solid white;
   border-radius: 6px;
 }
-
 .footer__img-youtube {
   padding-right: 11px;
   padding-left: 11px;
@@ -68,21 +61,13 @@
   outline: 1px solid white;
   border-radius: 6px;
 }
-
-.footer {
-  flex-wrap: wrap;
-  border-top: 1px solid rgba(246, 245, 239, 0.2);
-}
-
 .footer__social {
   margin-top: 64px;
 }
-
 .footer__links {
   margin-top: 64px;
   margin-bottom: 219px;
 }
-
 .footer__div-police {
   display: flex;
   gap: 32px;
@@ -91,7 +76,6 @@
   align-items: center;
   align-self: center;
 }
-
 .footer__h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
@@ -101,7 +85,6 @@
   text-align: center;
   color: rgba(246, 245, 239, 0.5);
 }
-
 .footer__div-police {
   margin-bottom: 16px;
 }

@@ -329,6 +329,12 @@ body {
   margin-left: -420px;
 }
 
+.dream__img-small {
+  z-index: 1;
+  margin-top: -35px;
+  margin-left: 340px;
+}
+
 .dream__img-light-white {
   position: absolute;
   width: 316px;
@@ -348,11 +354,9 @@ body {
   padding-right: 16px;
   padding-bottom: 32px;
 }
-
 .cards__img {
   margin-bottom: 32px;
 }
-
 .cards__h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
@@ -362,7 +366,6 @@ body {
   text-transform: uppercase;
   color: white;
 }
-
 .cards__h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
@@ -374,25 +377,21 @@ body {
   text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   opacity: 0.5;
 }
-
 .cards__list-h4 {
   margin-top: 32px;
   display: flex;
   gap: 32px;
 }
-
 .cards__list-privilege {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
-
 .cards__list-price {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
-
 .cards__h4 {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
@@ -401,7 +400,6 @@ body {
   letter-spacing: 0.03em;
   color: white;
 }
-
 .cards__list {
   display: flex;
   gap: 16px;
@@ -411,73 +409,11 @@ body {
   align-items: center;
   align-self: center;
 }
-
-.cards__titles {
+.cards .cards__titles {
   display: flex;
   justify-content: space-between;
 }
-
 .cards__list {
-  margin-bottom: 164px;
-}
-
-.entertainment__img-diving {
-  border-radius: 40px;
-  width: 712px;
-  height: 632px;
-  background: rgba(17, 19, 31, 0.2), url("../src/images/diving.svg");
-  padding-bottom: 32px;
-  padding-left: 32px;
-  padding-top: 552px;
-}
-
-.entertainment__h2 {
-  width: 106px;
-  height: 48px;
-  border-radius: 60px;
-  padding: 14px 28px;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 110%;
-  letter-spacing: -0.04em;
-  color: #11131f;
-  background: white;
-}
-
-.entertainment__h3 {
-  border-radius: 60px;
-  padding: 14px 28px;
-  width: 148px;
-  height: 48px;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 110%;
-  letter-spacing: -0.04em;
-  color: #11131f;
-  background: white;
-}
-
-.entertainment__img-fishing {
-  border-radius: 40px;
-  width: 440px;
-  height: 428px;
-  background: url("../src/images/fishing.svg");
-  padding-bottom: 32px;
-  padding-left: 44px;
-  padding-top: 348px;
-  margin-top: 200px;
-}
-
-.entertainment__img-sunbathing {
-  border-radius: 40px;
-  width: 436px;
-  height: 352px;
-  background: url("../src/images/sunbathing.svg");
-  padding-bottom: 32px;
-  padding-left: 32px;
-  padding-top: 272px;
   margin-bottom: 164px;
 }
 
@@ -491,12 +427,73 @@ body {
   align-self: center;
   width: 1500px;
 }
+.entertainment__img-diving {
+  border-radius: 40px;
+  width: 712px;
+  height: 632px;
+  background: rgba(17, 19, 31, 0.2), url("../src/images/diving.svg");
+  padding-bottom: 32px;
+  padding-left: 32px;
+  padding-top: 552px;
+}
+.entertainment__h2 {
+  width: 106px;
+  height: 48px;
+  border-radius: 60px;
+  padding: 14px 28px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  color: #11131f;
+  background: white;
+}
+.entertainment__h3 {
+  border-radius: 60px;
+  padding: 14px 28px;
+  width: 148px;
+  height: 48px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  color: #11131f;
+  background: white;
+}
+.entertainment__img-fishing {
+  border-radius: 40px;
+  width: 440px;
+  height: 428px;
+  background: url("../src/images/fishing.svg");
+  padding-bottom: 32px;
+  padding-left: 44px;
+  padding-top: 348px;
+  margin-top: 200px;
+}
+.entertainment__img-sunbathing {
+  border-radius: 40px;
+  width: 436px;
+  height: 352px;
+  background: url("../src/images/sunbathing.svg");
+  padding-bottom: 32px;
+  padding-left: 32px;
+  padding-top: 272px;
+  margin-bottom: 164px;
+}
 
 .rent {
   display: flex;
   gap: 188px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-bottom: 164px;
 }
-
 .rent__title {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
@@ -506,13 +503,11 @@ body {
   color: white;
   width: 282px;
 }
-
 .rent__div-title {
   display: flex;
   flex-direction: column;
   gap: 64px;
 }
-
 .rent__button {
   display: flex;
   gap: 16px;
@@ -530,12 +525,6 @@ body {
   text-align: center;
   align-items: center;
 }
-
-.header__img-phone {
-  position: absolute;
-  left: -10000000000000000000000000000000px;
-}
-
 .rent__input {
   width: 443px;
   font-family: "DM Sans", sans-serif;
@@ -547,7 +536,6 @@ body {
   border-bottom: 1px solid white;
   padding-bottom: 16px;
 }
-
 .rent__input::-moz-placeholder {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
@@ -556,7 +544,6 @@ body {
   letter-spacing: -0.04em;
   color: white;
 }
-
 .rent__input::placeholder {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
@@ -565,7 +552,6 @@ body {
   letter-spacing: -0.04em;
   color: white;
 }
-
 .rent__input-comment {
   width: 443px;
   font-family: "DM Sans", sans-serif;
@@ -577,13 +563,6 @@ body {
   border-bottom: 1px solid white;
   padding-bottom: 58px;
 }
-
-.dream__img-small {
-  z-index: 1;
-  margin-top: -35px;
-  margin-left: 340px;
-}
-
 .rent__input-comment::-moz-placeholder {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
@@ -592,7 +571,6 @@ body {
   letter-spacing: -0.04em;
   color: white;
 }
-
 .rent__input-comment::placeholder {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
@@ -601,7 +579,6 @@ body {
   letter-spacing: -0.04em;
   color: white;
 }
-
 .rent__list {
   display: flex;
   flex-direction: column;
@@ -609,16 +586,9 @@ body {
   margin-bottom: 64px;
 }
 
-.rent {
+.adventures {
   display: flex;
-  flex-wrap: wrap;
-  justify-self: center;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  margin-bottom: 164px;
 }
-
 .adventures__h2-title {
   font-family: "DM Sans", sans-serif;
   font-style: italic;
@@ -629,7 +599,6 @@ body {
   color: white;
   width: 497px;
 }
-
 .adventures__h2-title-italy {
   font-family: "DM Sans", sans-serif;
   font-style: italic;
@@ -642,7 +611,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .adventures__h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
@@ -653,10 +621,6 @@ body {
   width: 273px;
   margin-left: 50%;
   margin-bottom: 64px;
-}
-
-.adventures {
-  display: flex;
 }
 
 .reviews__div {
