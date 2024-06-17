@@ -21,3 +21,14 @@
 body {
   background-color: #11131f;
 }
+
+.section-wrapper {
+  background-image: url("../images/background-loop.svg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  @media screen and (max-width: 480px) {
+     background-image: none;
+  }
+}

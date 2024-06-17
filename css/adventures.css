@@ -1,0 +1,64 @@
+.adventures {
+  display: flex;
+}
+.adventures__h2-title {
+  font-family: "DM Sans", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.04em;
+  color: white;
+  width: 497px;
+}
+.adventures__h2-title-italy {
+  font-family: "DM Sans", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.04em;
+  background: linear-gradient(107deg, #bec7c2 0%, #a1b5ba 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.adventures__h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: white;
+  width: 273px;
+  margin-left: 50%;
+  margin-bottom: 64px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .adventures {
+    display: block;
+  }
+  .adventures__h3 {
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .adventures {
+    display: block;
+    width: 100%;
+  }
+  .adventures__h2-title {
+    width: 100%;
+    font-size: 29px;
+  }
+  .adventures__h2-title-italy {
+    font-size: 29px;
+  }
+  .adventures__h3 {
+    font-size: 15.5px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 24px;
+  }
+}

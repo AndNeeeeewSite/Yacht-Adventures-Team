@@ -1,0 +1,89 @@
+.cards__item {
+  border-radius: 24px;
+  width: 354px;
+  height: 508px;
+  background: #1f212d;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+}
+.cards__img {
+  margin-bottom: 32px;
+}
+.cards__h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: white;
+}
+.cards__h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 118%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  opacity: 0.5;
+}
+.cards__list-h4 {
+  margin-top: 32px;
+  display: flex;
+  gap: 32px;
+}
+.cards__list-privilege {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cards__list-price {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cards__h4 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 118%;
+  letter-spacing: 0.03em;
+  color: white;
+}
+.cards__list {
+  display: flex;
+  gap: 16px;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.cards__titles {
+  display: flex;
+  justify-content: space-between;
+}
+.cards__list {
+  margin-bottom: 164px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .card__3 {
+    position: absolute;
+    left: -100000000000000000000000000000000000000000000px;
+  }
+  .cards__item {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .card__3,
+  .card__2 {
+    position: absolute;
+    top: -100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000px;
+  }
+}
