@@ -1,101 +1,136 @@
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border-top:1px solid rgba(246, 245, 239, 0.2);
+    border-top: 1px solid rgba(246, 245, 239, 0.2);
 
-    &__logo{  
-    margin-top: 64px;
-    display: flex;
-    gap: 8px;
+    &__logo {
+        margin-top: 64px;
+        display: flex;
+        gap: 8px;
+    }
+
+    &__logo-img {
+        width: 23px;
+        height: 23px;
+    }
+
+    &__logo-title {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 118%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    &__h3 {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 118%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    &__list {
+        display: flex;
+        gap: 24px;
+    }
+
+
+    &__img-facebook {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 11px;
+        padding-bottom: 10px;
+        outline: 1px solid white;
+        border-radius: 6px;
+    }
+
+    &__list-social {
+        display: flex;
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+    &__img-instagram {
+        padding: 11px;
+        outline: 1px solid white;
+        border-radius: 6px;
+    }
+
+    &__img-youtube {
+        padding-right: 11px;
+        padding-left: 11px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        outline: 1px solid white;
+        border-radius: 6px;
+    }
+
+    &__social {
+        margin-top: 64px;
+    }
+
+    &__links {
+        margin-top: 64px;
+        margin-bottom: 219px;
+    }
+
+    &__div-police {
+        display: flex;
+        gap: 32px;
+        justify-self: center;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    &__h2 {
+        font-family: "DM Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 118%;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: rgba(246, 245, 239, 0.5);
+    }
+
+    &__div-police {
+        margin-bottom: 16px;
+    }
 }
 
-&__logo-img{
-    width: 23px;
-    height: 23px;
-}
-&__logo-title{
-    font-family: "DM Sans", sans-serif;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 118%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: white;
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .footer__list {
+        flex-direction: column;
+        gap: 24px;
+    }
 }
 
-&__h3{
-    font-family: "DM Sans", sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 118%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: white;
-}
+@media screen and (max-width: 480px) {
 
-&__list{
-    display: flex;
-    gap:24px;
-}
+    .footer {
+        display: flex;
+        flex-direction: column;
+
+        &__list {
+            flex-direction: column;
+        }
+
+        &__links {
+            margin-bottom: 40px;
+            margin-top: 40px;
+        }
+
+        &__social {
+            margin-top: 0px;
+            margin-bottom: 40px;
+        }
+    }
 
 
-&__img-facebook{
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 11px;
-    padding-bottom: 10px;
-    outline: 1px solid white;
-    border-radius: 6px;
-}
-
-&__list-social{
-    display: flex;
-    gap: 16px;
-    margin-top:16px;
-}
-
-&__img-instagram{
-    padding:11px;
-    outline: 1px solid white;
-    border-radius: 6px;
-}
-&__img-youtube{
-    padding-right: 11px;
-    padding-left:11px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    outline: 1px solid white;
-    border-radius: 6px;
-}
-
-&__social{
-    margin-top: 64px;
-}
-
-&__links{
-    margin-top: 64px;
-    margin-bottom: 219px;
-}
-
-&__div-police{
-    display: flex;
-    gap: 32px;
-    justify-self: center;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-}
-&__h2{
-    font-family:  "DM Sans", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 118%;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: rgba(246, 245, 239, 0.5);
-}
-&__div-police{
-    margin-bottom:16px;
-}
 }

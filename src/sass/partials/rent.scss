@@ -1,0 +1,130 @@
+.rent {
+  display: flex;
+  gap: 188px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin-bottom: 164px;
+
+  &__title {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    color: white;
+    width: 282px;
+  }
+
+  &__div-title {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  &__button {
+    display: flex;
+    gap: 16px;
+    border: 1px solid white;
+    border-radius: 60px;
+    padding: 14px 28px;
+    width: 132px;
+    height: 48px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    color: white;
+    text-align: center;
+    align-items: center;
+  }
+
+  &__input {
+    width: 443px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 16px;
+  }
+
+  &__input::placeholder {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: white;
+  }
+
+  &__input-comment {
+    width: 443px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 58px;
+  }
+
+  &__input-comment::placeholder {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: white;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+  .rent {
+    gap: 69px;
+
+    &__input {
+      width: 364px;
+    }
+
+    &__input-comment {
+      width: 364px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .rent {
+    gap: 40px;
+
+    &__div-title {
+      margin-left: -10%;
+    }
+
+    &__title {
+      width: 100%;
+      font-size: 50px;
+    }
+
+    &__input,
+    &__input-comment {
+      width: 335px;
+    }
+  }
+}
