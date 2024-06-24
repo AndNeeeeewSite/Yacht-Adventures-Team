@@ -1,4 +1,4 @@
-.entertainment {
+.entertainment__container {
   display: flex;
   gap: 64px;
   flex-wrap: wrap;
@@ -7,6 +7,9 @@
   align-items: center;
   align-self: center;
   width: 1500px;
+  background-image: url("../images/entertainment-light.png");
+  background-repeat: no-repeat;
+  background-position: -10% 10%;
 }
 .entertainment__img-diving {
   border-radius: 40px;
@@ -65,7 +68,7 @@
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
-  .entertainment {
+  .entertainment__container {
     gap: 32px;
     justify-content: unset;
   }
@@ -94,7 +97,7 @@
     height: 345px;
     margin-top: 0px;
   }
-  .entertainment {
+  .entertainment__container {
     gap: 24px;
   }
   .entertainment__img-sunbathing {

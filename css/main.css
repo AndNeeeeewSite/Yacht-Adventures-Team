@@ -285,7 +285,7 @@ legend {
   }
 }
 .clients {
-  margin-bottom: 164px;
+  padding-bottom: 164px;
 }
 .clients-wrapper {
   display: flex;
@@ -295,6 +295,10 @@ legend {
   justify-content: center;
   align-items: center;
   align-self: center;
+  background-image: url("../images/hero-lightgroup.png");
+  background-repeat: no-repeat;
+  background-position: 10% 0;
+  background-size: contain;
 }
 .clients__div-imgs {
   width: 426px;
@@ -586,6 +590,13 @@ legend {
     font-size: 29px;
   }
 }
+.dream {
+  background-image: url("../images/dream-lightgroup.png");
+  background-repeat: no-repeat;
+  padding: 175px;
+  padding: 169px;
+  background-position: 40% 60%;
+}
 .dream__img-dream {
   margin-top: 253px;
   margin-right: 32px;
@@ -729,9 +740,6 @@ legend {
     margin-left: -56%;
   }
 }
-.cards {
-  background-image: url("../images/background-loop.svg");
-}
 .cards__item {
   border-radius: 24px;
   width: 354px;
@@ -821,7 +829,7 @@ legend {
     top: -100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000px;
   }
 }
-.entertainment {
+.entertainment__container {
   display: flex;
   gap: 64px;
   flex-wrap: wrap;
@@ -830,6 +838,9 @@ legend {
   align-items: center;
   align-self: center;
   width: 1500px;
+  background-image: url("../images/entertainment-light.png");
+  background-repeat: no-repeat;
+  background-position: -10% 10%;
 }
 .entertainment__img-diving {
   border-radius: 40px;
@@ -888,7 +899,7 @@ legend {
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
-  .entertainment {
+  .entertainment__container {
     gap: 32px;
     justify-content: unset;
   }
@@ -917,7 +928,7 @@ legend {
     height: 345px;
     margin-top: 0px;
   }
-  .entertainment {
+  .entertainment__container {
     gap: 24px;
   }
   .entertainment__img-sunbathing {
@@ -1054,7 +1065,7 @@ legend {
     width: 335px;
   }
 }
-.entertainment {
+.entertainment__container {
   display: flex;
   gap: 64px;
   flex-wrap: wrap;
@@ -1063,6 +1074,9 @@ legend {
   align-items: center;
   align-self: center;
   width: 1500px;
+  background-image: url("../images/entertainment-light.png");
+  background-repeat: no-repeat;
+  background-position: -10% 10%;
 }
 .entertainment__img-diving {
   border-radius: 40px;
@@ -1121,7 +1135,7 @@ legend {
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
-  .entertainment {
+  .entertainment__container {
     gap: 32px;
     justify-content: unset;
   }
@@ -1150,7 +1164,7 @@ legend {
     height: 345px;
     margin-top: 0px;
   }
-  .entertainment {
+  .entertainment__container {
     gap: 24px;
   }
   .entertainment__img-sunbathing {
@@ -1428,6 +1442,18 @@ legend {
 
 body {
   background-color: #11131f;
+}
+
+.section-wrapper {
+  background-image: url("../images/background-loop.svg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+@media screen and (max-width: 480px) {
+  .section-wrapper {
+    background-image: none;
+  }
 }
 
 .container {
