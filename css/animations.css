@@ -1,0 +1,38 @@
+.cards__item:hover {
+  transform: translateY(-150px);
+}
+
+.cards__item {
+  transition: all 500ms;
+}
+
+.clients__button-explore {
+  transition: all 500ms;
+}
+
+.clients__button-explore:hover {
+  border: 1px solid #93ABAE;
+  color: #93ABAE;
+}
+
+.clients__button-start {
+  transition: all 500ms;
+  background: #88B3B9;
+}
+
+.clients__button-start:hover {
+  background: #93ABAE;
+}
+
+.footer__img-facebook:hover,
+.footer__img-youtube:hover,
+.footer__img-instagram:hover {
+  outline: 1px solid #fff;
+}
+
+.footer__img-facebook,
+.footer__img-youtube,
+.footer__img-instagram {
+  transition: all 500ms;
+  border: 1px solid rgba(246, 245, 239, 0.5019607843);
+}

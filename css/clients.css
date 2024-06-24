@@ -3,7 +3,7 @@
 }
 .clients-wrapper {
   display: flex;
-  gap: 236px;
+  gap: 15%;
   flex-wrap: wrap;
   justify-self: center;
   justify-content: center;

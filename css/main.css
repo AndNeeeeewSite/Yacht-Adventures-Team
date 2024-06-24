@@ -149,7 +149,6 @@ legend {
   padding-right: 15px;
   padding-top: 11px;
   padding-bottom: 10px;
-  outline: 1px solid white;
   border-radius: 6px;
 }
 .footer__list-social {
@@ -159,7 +158,6 @@ legend {
 }
 .footer__img-instagram {
   padding: 11px;
-  outline: 1px solid white;
   border-radius: 6px;
 }
 .footer__img-youtube {
@@ -167,7 +165,6 @@ legend {
   padding-left: 11px;
   padding-top: 13px;
   padding-bottom: 13px;
-  outline: 1px solid white;
   border-radius: 6px;
 }
 .footer__social {
@@ -289,7 +286,7 @@ legend {
 }
 .clients-wrapper {
   display: flex;
-  gap: 236px;
+  gap: 15%;
   flex-wrap: wrap;
   justify-self: center;
   justify-content: center;
@@ -814,6 +811,9 @@ legend {
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
+  .cards__item:hover {
+    transform: translateY(0px);
+  }
   .card__3 {
     position: absolute;
     left: -100000000000000000000000000000000000000000000px;
@@ -823,6 +823,9 @@ legend {
   }
 }
 @media screen and (max-width: 480px) {
+  .cards__item:hover {
+    transform: translateY(0px);
+  }
   .card__3,
   .card__2 {
     position: absolute;
@@ -1438,6 +1441,45 @@ legend {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: white;
+}
+
+.cards__item:hover {
+  transform: translateY(-150px);
+}
+
+.cards__item {
+  transition: all 500ms;
+}
+
+.clients__button-explore {
+  transition: all 500ms;
+}
+
+.clients__button-explore:hover {
+  border: 1px solid #93ABAE;
+  color: #93ABAE;
+}
+
+.clients__button-start {
+  transition: all 500ms;
+  background: #88B3B9;
+}
+
+.clients__button-start:hover {
+  background: #93ABAE;
+}
+
+.footer__img-facebook:hover,
+.footer__img-youtube:hover,
+.footer__img-instagram:hover {
+  outline: 1px solid #fff;
+}
+
+.footer__img-facebook,
+.footer__img-youtube,
+.footer__img-instagram {
+  transition: all 500ms;
+  border: 1px solid rgba(246, 245, 239, 0.5019607843);
 }
 
 body {

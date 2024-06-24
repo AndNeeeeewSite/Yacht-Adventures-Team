@@ -72,6 +72,9 @@
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
+  .cards__item:hover {
+    transform: translateY(0px);
+  }
   .card__3 {
     position: absolute;
     left: -100000000000000000000000000000000000000000000px;
@@ -81,6 +84,9 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .cards__item:hover {
+    transform: translateY(0px);
+  }
   .card__3,
   .card__2 {
     position: absolute;
