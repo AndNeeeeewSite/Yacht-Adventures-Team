@@ -1,42 +1,59 @@
-@import "../partials/clients.scss";
+@import '../partials/clients.scss';
 
-@import "../partials/dream.scss";
+@import '../partials/dream.scss';
 
-@import "../partials/cards.scss";
+@import '../partials/cards.scss';
 
-@import "../partials/entertainment.scss";
+@import '../partials/entertainment.scss';
 
-@import "../partials/rent.scss";
+@import '../partials/rent.scss';
 
-@import "../partials/entertainment.scss";
+@import '../partials/entertainment.scss';
 
-@import "../partials/adventures.scss";
+@import '../partials/adventures.scss';
 
-@import "../partials/reviews.scss";
+@import '../partials/reviews.scss';
 
-@import "../partials/reviews.scss";
+@import '../partials/reviews.scss';
 
-@import "../partials/mobile.scss";
+@import '../partials/mobile.scss';
 
-@import "../partials/animations.scss";
+@import '../partials/animations.scss';
 
 body {
   background-color: #11131f;
 }
 
 .section-wrapper {
-  background-image: url("../images/background-loop.svg");
+  background-image: url('../images/background-loop.svg');
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 
   @media screen and (max-width: 480px) {
-     background-image: none;
+    background-image: none;
   }
 }
 
 .section-wrapper2 {
-  background-image: url("../images/entertainment-light.png");
+  background-image: url('../images/entertainment-light.png');
   background-repeat: no-repeat;
-  background-position: 140% 50%;
+  background-position: 130% 50%;
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    background-position: 1300% 900%;
+  }
+}
+
+.footer-wrapper {
+  padding-bottom: 16px;
+  background-image: url('../images/footer-light-group.png');
+  background-repeat: no-repeat;
+  background-position: 50% -20%;
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    background-image: url('../images/entertainment-light.png');
+    background-repeat: no-repeat;
+    background-position: 190% -50%;
+  }
 }

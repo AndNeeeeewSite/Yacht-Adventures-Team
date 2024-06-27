@@ -13,6 +13,11 @@
     background-repeat: no-repeat;
     background-position: 10% 0;
     background-size: contain;
+    
+    @media screen and (min-width: 480px) and (max-width: 768px){
+      background-position: 50% 120%;
+      background-size: 130%;
+    }
   }
 
   &__div-imgs {
@@ -277,7 +282,8 @@
       display: flex;
       flex-direction: column-reverse;
       gap: 64px;
-
+      // background-position: 50% 120%;
+      // background-size: 130%;
     }
 
     &__div-imgs {

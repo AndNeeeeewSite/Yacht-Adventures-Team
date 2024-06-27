@@ -92,6 +92,9 @@
 @media screen and (min-width: 480px) and (max-width: 768px) {
 
   .dream {
+    background-size: 125%;
+    background-position: 50% 90%;
+
     &__img-big {
       margin-top: 0px;
       margin-left: -56%;

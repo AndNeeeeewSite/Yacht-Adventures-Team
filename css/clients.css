@@ -14,6 +14,12 @@
   background-position: 10% 0;
   background-size: contain;
 }
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .clients-wrapper {
+    background-position: 50% 120%;
+    background-size: 130%;
+  }
+}
 .clients__div-imgs {
   width: 426px;
   height: 598px;

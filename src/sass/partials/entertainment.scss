@@ -80,6 +80,8 @@
 @media screen and (min-width: 480px) and (max-width: 768px) {
 
   .entertainment {
+    background-position: -1450% 50%;
+
     &__container{
       gap: 32px;
       justify-content: unset;

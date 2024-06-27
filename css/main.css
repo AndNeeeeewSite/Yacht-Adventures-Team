@@ -191,9 +191,6 @@ legend {
   text-align: center;
   color: rgba(246, 245, 239, 0.5);
 }
-.footer__div-police {
-  margin-bottom: 16px;
-}
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .footer__list {
@@ -296,6 +293,12 @@ legend {
   background-repeat: no-repeat;
   background-position: 10% 0;
   background-size: contain;
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .clients-wrapper {
+    background-position: 50% 120%;
+    background-size: 130%;
+  }
 }
 .clients__div-imgs {
   width: 426px;
@@ -669,6 +672,10 @@ legend {
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
+  .dream {
+    background-size: 125%;
+    background-position: 50% 90%;
+  }
   .dream__img-big {
     margin-top: 0px;
     margin-left: -56%;
@@ -832,6 +839,11 @@ legend {
     top: -100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000px;
   }
 }
+.entertainment {
+  background-image: url("../images/entertainment-light.png");
+  background-repeat: no-repeat;
+  background-position: -10% 10%;
+}
 .entertainment__container {
   display: flex;
   gap: 64px;
@@ -840,10 +852,6 @@ legend {
   justify-content: center;
   align-items: center;
   align-self: center;
-  width: 1500px;
-  background-image: url("../images/entertainment-light.png");
-  background-repeat: no-repeat;
-  background-position: -10% 10%;
 }
 .entertainment__img-diving {
   border-radius: 40px;
@@ -902,6 +910,9 @@ legend {
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
+  .entertainment {
+    background-position: -1450% 50%;
+  }
   .entertainment__container {
     gap: 32px;
     justify-content: unset;
@@ -1068,6 +1079,11 @@ legend {
     width: 335px;
   }
 }
+.entertainment {
+  background-image: url("../images/entertainment-light.png");
+  background-repeat: no-repeat;
+  background-position: -10% 10%;
+}
 .entertainment__container {
   display: flex;
   gap: 64px;
@@ -1076,10 +1092,6 @@ legend {
   justify-content: center;
   align-items: center;
   align-self: center;
-  width: 1500px;
-  background-image: url("../images/entertainment-light.png");
-  background-repeat: no-repeat;
-  background-position: -10% 10%;
 }
 .entertainment__img-diving {
   border-radius: 40px;
@@ -1138,6 +1150,9 @@ legend {
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
+  .entertainment {
+    background-position: -1450% 50%;
+  }
   .entertainment__container {
     gap: 32px;
     justify-content: unset;
@@ -1495,6 +1510,31 @@ body {
 @media screen and (max-width: 480px) {
   .section-wrapper {
     background-image: none;
+  }
+}
+
+.section-wrapper2 {
+  background-image: url("../images/entertainment-light.png");
+  background-repeat: no-repeat;
+  background-position: 130% 50%;
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .section-wrapper2 {
+    background-position: 1300% 900%;
+  }
+}
+
+.footer-wrapper {
+  padding-bottom: 16px;
+  background-image: url("../images/footer-light-group.png");
+  background-repeat: no-repeat;
+  background-position: 50% -20%;
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .footer-wrapper {
+    background-image: url("../images/entertainment-light.png");
+    background-repeat: no-repeat;
+    background-position: 190% -50%;
   }
 }
 

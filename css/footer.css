@@ -82,9 +82,6 @@
   text-align: center;
   color: rgba(246, 245, 239, 0.5);
 }
-.footer__div-police {
-  margin-bottom: 16px;
-}
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .footer__list {
