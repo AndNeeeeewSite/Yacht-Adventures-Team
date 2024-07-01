@@ -34,3 +34,16 @@
     border: 1px solid #F6F5EF80
 }
 
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .cards__item:hover{
+        transform: translateY(-0px);
+    }
+
+  }
+  
+  @media screen and (max-width: 480px) {
+    .cards__item:hover{
+        transform: translateY(-0px);
+    }
+  }

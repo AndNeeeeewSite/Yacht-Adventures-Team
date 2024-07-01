@@ -1497,6 +1497,16 @@ legend {
   border: 1px solid rgba(246, 245, 239, 0.5019607843);
 }
 
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .cards__item:hover {
+    transform: translateY(0px);
+  }
+}
+@media screen and (max-width: 480px) {
+  .cards__item:hover {
+    transform: translateY(0px);
+  }
+}
 body {
   background-color: #11131f;
 }
