@@ -628,6 +628,9 @@
   padding-top: 272px;
   margin-bottom: 164px;
 }
+.entertainment__container {
+  width: 1600px;
+}
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .entertainment {
@@ -867,6 +870,9 @@
   padding-left: 32px;
   padding-top: 272px;
   margin-bottom: 164px;
+}
+.entertainment__container {
+  width: 1600px;
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -1171,7 +1177,7 @@
 .mobile__h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 25px;
   line-height: 118%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
