@@ -9,7 +9,7 @@
     rel="stylesheet">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Page title</title>
+  <title>Yacht-Adventure</title>
   <link rel="stylesheet" href="./sass/main.scss" />
 </head>
 <body>
@@ -23,37 +23,19 @@
   </div>
   <div class="section-wrapper2">
     <include src="./partials/rent.html"></include>
+    <include src="./partials/modal.html"></include>
     <include src="./partials/adventures.html"></include>
   </div>
     <include src="./partials/reviews.html"></include>
   </main>
   <include src="./partials/footer.html"></include>
-  <div class="mobile-menu js-menu-container container" >
-    <div class="header ">
-      <div class="header__div-logo">
-        <img class="header__img" src="./images/logo.png" alt="logo">
-        <a href="./index.html" class="header__h2">Yacht Adventures</a>
-      </div>
-      <img class="second-footer__menu header__img-phone menu-toggle js-close-menu" aria-expanded="false"
-        aria-controls="mobile-menu" src="./images/mobile-img.png" alt="">
-    </div>
-    <ul class="mobile__list">
-      <li class="mobile__item">
-        <h2 class="mobile__h2">About</h2>
-      </li>
-      <li class="mobile__item">
-        <h2 class="mobile__h2">Yachts</h2>
-      </li>
-      <li class="mobile__item">
-        <h2 class="mobile__h2">Reviews</h2>
-      </li>
-    </ul>
-  </div>
+  <include src="./partials/mobile-menu.html"></include> 
 
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
     integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
     crossorigin="anonymous"></script>
   <script src="./js/mobile-menu.js"></script>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
