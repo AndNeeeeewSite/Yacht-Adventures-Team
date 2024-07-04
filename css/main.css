@@ -1612,6 +1612,34 @@ body {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .modal__home-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 90%;
+    min-height: 0px;
+    border-radius: 4px;
+    background: #1F212D;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    padding: 32px;
+    border-radius: 50px;
+  }
+  .modal__img {
+    margin-left: 0px;
+  }
+  .modal__h3 {
+    width: 100%;
+  }
+  .header-button-img-close {
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -20px;
+    width: 20px;
+    height: 20px;
+  }
+}
 .container {
   max-width: 100%;
   margin: 0 auto;
